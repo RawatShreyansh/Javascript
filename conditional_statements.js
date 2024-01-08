@@ -72,3 +72,6 @@ console.log(c === d)  // false because it checks both value and the data types
 console.log( c != d)  // false because number : 10 and string : 10 are same value and it doesnot care about the data types
 
 console.log(c !== d)  // true because the data types are different
+
+
+

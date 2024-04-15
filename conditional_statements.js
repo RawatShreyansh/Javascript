@@ -74,4 +74,43 @@ console.log( c != d)  // false because number : 10 and string : 10 are same valu
 console.log(c !== d)  // true because the data types are different
 
 
+//Operators on string 
+let text1 = "A";
+let text2 = "B";
 
+console.log(text1 < text2)
+
+let text3 = text1 + " " + text2;
+console.log(text3)
+text2 += " is greater than A";
+
+// type casting number to string
+let x = 5 + 5;         // number
+let y = "5" + 5;      // string 
+let z = 5 + "hello";  // string
+
+console.log(typeof x , x);
+console.log(typeof y , y);
+console.log(typeof z , z);
+
+/* logical operators
+    && logical and 
+    || logical or
+    ! logical not
+*/
+
+
+// if else ladder
+
+if(2 > 3){
+    console.log("2 is greater than 3");
+}
+else if(2 < 3){
+    console.log("2 is less than 3");
+}
+else {
+    console.log("both are same");
+}
+
+// ternary operator
+console.log(2>3 ? ('2 is greater than 3') : ('3 is greater than 2'));
